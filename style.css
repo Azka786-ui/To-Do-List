@@ -1,0 +1,134 @@
+
+/*
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body{
+    background: pink;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 70vh;
+}
+
+#container{
+    background: #fff;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+:root{
+   --bg-color:pink;
+    --border: 2px solid black;
+    --primary-text-content: white;
+    --padding-right:10px ;
+     --padding-left:10px ;
+     --padding-top:10px ;
+      --padding-bottom:10px ;
+}
+
+#Add{
+    background-color:var(--bg-color);
+    border:var(--border);
+    color:var(--primary-text-content);
+    padding:var(--padding-bottom);
+    padding:var(--padding-top);
+    padding:var(--padding-left);
+    padding:var(--padding-right);
+    
+}
+
+#input{
+            border:2px solid rgb(251, 186, 197);
+ 
+    padding:var(--padding-bottom);
+    padding:var(--padding-top);
+    padding:var(--padding-left);
+    padding:var(--padding-right);
+    
+}   
+ul {
+    
+  justify-content: space-between;
+    padding:var(--padding-bottom);
+    padding:var(--padding-top);
+    padding:var(--padding-left);
+    padding:var(--padding-right);
+    
+}
+.delbtn{
+     border:var(--border);
+     background:red;
+     color:var(--primary-text-content);
+    padding:var(--padding-bottom);
+    padding:var(--padding-top);
+    padding:var(--padding-left);
+    padding:var(--padding-right);
+    
+}
+
+li{
+     justify-content: space-between;
+     border:var(--border);
+    display: flex;
+    padding:var(--padding-bottom);
+    padding:var(--padding-top);
+    padding:var(--padding-left);
+    padding:var(--padding-right);
+    background: rgb(244, 203, 210);
+    
+}*/
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9a7a7;
+}
+
+.container {
+    width: 400px;
+    margin: 70px auto ;
+    padding: 80px;
+    background: white;
+    border-radius: 10px;
+    align-content: center;
+}
+
+h1 {
+    text-align: center;
+    
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+    border-color: rgb(235, 146, 130);
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    color: red;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f6e1e1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
